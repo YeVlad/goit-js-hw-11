@@ -19,7 +19,9 @@
     
     <title>Homework</title>
     <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-1d2e349a.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-8c59ed88.js">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-97737543.css">
   </head>
   <body>
     <div class="work-area">
@@ -27,7 +29,8 @@
         <input name="inputSearch" type="text" placeholder="Search images..." />
         <button name="buttonSearch" type="submit">Search</button>
       </form>
-      <p class="text-wait" hidden>Wait</p>
+      <span class="loader"></span>
+
       <ul name="images-holder" class="images-place"></ul>
     </div>
     
